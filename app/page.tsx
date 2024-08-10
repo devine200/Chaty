@@ -1,4 +1,7 @@
-export default function Page() {
-    return (<div>Hello indexing Fucker!!!</div>);
+import Redirect from './components/Redirect'
+
+export default function Home() {
+  return (
+    <Redirect />
+  )
 }
-    
