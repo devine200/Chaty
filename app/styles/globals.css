@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-  --auth-layout-background: #c8c8f3;
+  --background-primary: #F7F7FF;
 }
 
 /* @media (prefers-color-scheme: dark) {
@@ -14,5 +14,5 @@
 body {
   padding: 0;
   margin: 0;
-  background-color: var(--auth-layout-background)
+  font-family: 'Public Sans'
 }
