@@ -7,7 +7,7 @@ interface CheckBoxProps {
 
 const AuthCheckBox = ({checked}:CheckBoxProps) => {
   return (
-    <div>
+    <div className="mb-8">
         <input type="checkbox" checked={checked} className={styles.authCheckBox} /> <span className="capitalize font-medium mb-4">Remember me</span>
     </div>
   )

@@ -32,10 +32,15 @@ const SignInPage = () => {
 				</div>
 			</AuthHeader>
 			<SignInForm />
-			<div>
-				Don&apos;t have an account?{" "}
-				<Link href="/signup">Signup now</Link>
-			</div>
+			<footer className="mt-12 text-center">
+				<p className="mb-4">
+					Don&apos;t have an account?{" "}
+					<Link href="/signup" style={{"color": "var(--ct-btn-bg)"}}>Signup now</Link>
+				</p>
+				<p>
+					© 2024 Chaty. Crafted with  by SamDev
+				</p>
+			</footer>
 		</AuthLayout>
 	);
 };

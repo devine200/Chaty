@@ -37,3 +37,13 @@
     border-color: var(--ct-form-check-bg);
 }
 
+.authSubmitBtn{
+    border: none;
+    color: var(--ct-white);
+    background: var(--ct-btn-bg);
+    /* transition: .3 ease background; */
+}
+
+.authSubmitBtn:hover{
+    background: var(--ct-btn-hover-bg);
+}
