@@ -1,3 +1,15 @@
 .layout {
-    background-color: var(--background-primary);
+    background-color: var(--ct-background-primary);
+}
+
+.authTopHead {
+    color: var(--ct-primary-color);
+    font-weight: 600;
+    font-size: 1.3125rem;
+    margin-bottom: 8px;
+}
+
+.authBottomHead {
+    color: var(--ct-secondary-color);
+    margin-bottom: 24px;
 }

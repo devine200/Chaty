@@ -3,7 +3,14 @@
 @tailwind utilities;
 
 :root {
-  --background-primary: #F7F7FF;
+  --ct-background-primary: #F7F7FF;
+
+  --ct--dark: #343a40;
+  --ct-grey-light: #7a7f9a;
+  --ct-white: #fff;
+  --ct-primary-rgb: 114, 105, 239;
+  --ct-primary-color: #343a40;
+  --ct-secondary-color: #7a7f9a;
 }
 
 /* @media (prefers-color-scheme: dark) {
@@ -11,8 +18,12 @@
   }
 } */
 
+html {
+  font-family: var(--font-public-sans)
+}
+
 body {
   padding: 0;
   margin: 0;
-  font-family: 'Public Sans'
+  font-size: 16px;
 }
