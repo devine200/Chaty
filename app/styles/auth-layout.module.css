@@ -13,3 +13,27 @@
     color: var(--ct-secondary-color);
     margin-bottom: 24px;
 }
+
+.authIconHolder {
+   background: #f8f9fa
+}
+
+.authInput {
+    padding: .5rem 1rem;
+    font-size: inherit;
+    width: 320px;
+    border: 1px solid var(--ct-border-color);
+    outline: none;
+}
+
+.authCheckBox {
+    color: var(--ct-secondary-color);
+    background-color: var(--ct-form-check-bg);
+    border-color: var(--ct-form-check-bg)
+}
+
+.authCheckBox:active {
+    background-color: var(--ct-form-check-bg);
+    border-color: var(--ct-form-check-bg);
+}
+
