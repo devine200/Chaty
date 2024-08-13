@@ -7,7 +7,7 @@ import passLogo from "../../images/form-pass.png";
 import AuthCheckBox from "./auth-checkbox";
 import AuthSubmitBtn from "./auth-submit-btn";
 
-const SignInForm = () => {
+const SignUpForm = () => {
     const handleOnSubmit = (e:React.FormEvent) => {
         e.preventDefault();
     }
@@ -15,11 +15,12 @@ const SignInForm = () => {
 	return (
 		<FormCard onSubmit={handleOnSubmit}>
 		    <AuthFormInput icon={userLogo} label="email" inputType="email" />
+		    <AuthFormInput icon={userLogo} label="username" inputType="text" />
 		    <AuthFormInput icon={passLogo} label="password" inputType="password" hasForgotPass={true} />
             <AuthCheckBox />
-            <AuthSubmitBtn text="Sign in"/>
+            <AuthSubmitBtn text="Register"/>
 		</FormCard>
 	);
 };
 
-export default SignInForm;
+export default SignUpForm;

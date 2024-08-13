@@ -25,17 +25,17 @@ const SignInPage = () => {
 					/>
 				</Link>
 				<div className="text-center">
-					<h4 className={styles.authTopHead}>Sign In</h4>
+					<h4 className={styles.authTopHead}>Register</h4>
 					<p className={styles.authBottomHead}>
-						Sign in to continue to Chaty
+					Get your Chatvia account now.
 					</p>
 				</div>
 			</AuthHeader>
 			<SignInForm />
 			<footer className="mt-12 text-center">
 				<p className="mb-4">
-					Don&apos;t have an account?{" "}
-					<Link href="/auth/signup" style={{"color": "var(--ct-btn-bg)"}}>Signup now</Link>
+				Already have an account ?{" "}
+					<Link href="/auth/signin" style={{"color": "var(--ct-btn-bg)"}}>Signin</Link>
 				</p>
 				<p>
 					© 2024 Chaty. Crafted with  by SamDev

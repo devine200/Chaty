@@ -19,13 +19,22 @@
 
 }
 
+@layer base {
+  @font-face {
+    font-family: PublicSans;
+    src: url("../fonts/public_sans.ttf") format("ttf");
+    font-style: normal;
+    font-display: swap;
+  }
+}
+
 /* @media (prefers-color-scheme: dark) {
   :root {
   }
 } */
 
-html {
-  font-family: var(--font-public-sans)
+* {
+  font-family: PublicSans;
 }
 
 body {
