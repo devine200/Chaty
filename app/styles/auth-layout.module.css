@@ -1,5 +1,9 @@
 .layout {
+    padding: 1.25rem;
     background-color: var(--ct-background-primary);
+    min-height: fit-content;
+    overflow-y: scroll;
+    box-sizing: border-box;
 }
 
 .authTopHead {

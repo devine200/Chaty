@@ -2,10 +2,14 @@
 import React, { useEffect } from "react";
 import { useRouter } from "next/navigation";
 
-const Redirect = () => {
+interface RedirectProps {
+    url: string;
+}
+
+const Redirect = ({url}:RedirectProps) => {
     const router = useRouter();
     useEffect(() => {
-        router.push("/auth/signin")
+        router.push(url)
     }, [])
 	return <></>;
 };

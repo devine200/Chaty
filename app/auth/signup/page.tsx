@@ -7,7 +7,7 @@ import AuthHeader from "../components/auth-header";
 
 import authLogo from "../../images/chaty-logo.png";
 import styles from "../../styles/auth-layout.module.css";
-import SignInForm from "../components/sign-in-form";
+import SignUpForm from "../components/sign-up-form";
 
 const SignInPage = () => {
 	return (
@@ -18,9 +18,9 @@ const SignInPage = () => {
 						src={authLogo}
 						alt="chaty logo"
 						style={{
-							width: "120px",
-							height: "30px",
-							marginBottom: "48px",
+							width: "7.5rem",
+							height: "1.875rem",
+							marginBottom: "3rem",
 						}}
 					/>
 				</Link>
@@ -31,7 +31,7 @@ const SignInPage = () => {
 					</p>
 				</div>
 			</AuthHeader>
-			<SignInForm />
+			<SignUpForm />
 			<footer className="mt-12 text-center">
 				<p className="mb-4">
 				Already have an account ?{" "}

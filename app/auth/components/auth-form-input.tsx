@@ -25,7 +25,7 @@ const AuthFormInput = ({
 			{hasForgotPass ? (
 				<div className="flex justify-between">
           <label className="capitalize font-medium mb-4">{label}</label>
-          <Link href="/forgot" style={{
+          <Link href="/auth/forgot" style={{
             color: "var(--ct-secondary-color)",
             fontSize: "13px"
           }}>Forgot password?</Link>
@@ -35,7 +35,7 @@ const AuthFormInput = ({
 			)}
 			<div className="flex">
 				<div className={iconHolderClassName}>
-					<Image src={icon} width={16} height={16} alt="user icon" />
+					<Image src={icon} width={14} height={14} alt="user icon" />
 				</div>
 				<input
 					className={inputClassName}

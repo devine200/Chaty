@@ -2,9 +2,9 @@
 import React from "react";
 import FormCard from "../components/form-card";
 import AuthFormInput from "./auth-form-input";
+import mailLogo from "../../images/mail.png";
 import userLogo from "../../images/form-user.png";
 import passLogo from "../../images/form-pass.png";
-import AuthCheckBox from "./auth-checkbox";
 import AuthSubmitBtn from "./auth-submit-btn";
 
 const SignUpForm = () => {
@@ -14,10 +14,9 @@ const SignUpForm = () => {
 
 	return (
 		<FormCard onSubmit={handleOnSubmit}>
-		    <AuthFormInput icon={userLogo} label="email" inputType="email" />
+		    <AuthFormInput icon={mailLogo} label="email" inputType="email" />
 		    <AuthFormInput icon={userLogo} label="username" inputType="text" />
-		    <AuthFormInput icon={passLogo} label="password" inputType="password" hasForgotPass={true} />
-            <AuthCheckBox />
+		    <AuthFormInput icon={passLogo} label="password" inputType="password" />
             <AuthSubmitBtn text="Register"/>
 		</FormCard>
 	);
