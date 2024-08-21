@@ -4,6 +4,7 @@
 
 :root {
   --ct-background-primary: #F7F7FF;
+  --ct-bg-side-bar: #FFFFFF;
   --ct-form-check-bg: #f7f7ff;
   --ct-btn-bg: #7269ef;
   --ct-btn-hover-bg: #6159cb;
@@ -15,7 +16,8 @@
   --ct-primary-rgb: 114, 105, 239;
   --ct-primary-color: #343a40;
   --ct-secondary-color: #7a7f9a;
-  --ct-border-color: #f0eff5;
+  --ct-border-color: #eeecf3;
+  --ct-border-shadow-color: #c3bfc8;
 
 }
 
