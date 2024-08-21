@@ -45,17 +45,17 @@
     box-shadow: 0px 0px 5px var(--ct-border-shadow-color);
 }
 
-.navProfileBtnMenu {
+.navOptionBtnMenu {
     min-width: 150px;
-    z-index: 3;
+    z-index: 100;
     box-shadow: 0px 0px 5px var(--ct-border-shadow-color);
 }
 
-.navProfileBtnMenuBtn {
+.navOptionBtnMenuBtn {
     color: var(--ct-primary-color);
 }
 
-.navProfileBtnMenuBtn:hover {
+.navOptionBtnMenuBtn:hover {
     background: var(--ct-form-check-bg);
 }
 
