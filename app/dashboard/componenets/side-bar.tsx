@@ -11,11 +11,10 @@ import chatDefaultLogo from "../../images/chats_d.png";
 import chatActiveLogo from "../../images/chats.png";
 import settingDefaultLogo from "../../images/setting_d.png";
 import settingActiveLogo from "../../images/setting.png";
-import profileImg from "../../images/profilePicture.jpg";
+import SideBarProfileButton from "./side-bar-profile-img-btn";
 
 const SideBar = () => {
 	const sideBarClassName = `flex flex-col justify-between items-center ${styles.sideBar}`;
-    const profileImageClassName = `rounded-full ${styles.navProfileImg}`
 
 	return (
 		<div className={sideBarClassName}>
@@ -28,7 +27,7 @@ const SideBar = () => {
             </ul>
             <ul>
                 <li><SideNavButton defaultUrl={settingDefaultLogo} activeUrl={settingActiveLogo} /></li>
-                <li className="flex justify-center"><Image src={profileImg} alt="profile image" width={34} height={34} className={profileImageClassName}/></li>
+                <li className="flex justify-center"><SideBarProfileButton /></li>
             </ul>
 		</div>
 	);
