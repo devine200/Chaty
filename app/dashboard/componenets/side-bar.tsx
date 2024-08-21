@@ -14,7 +14,7 @@ import settingActiveLogo from "../../images/setting.png";
 import SideBarProfileButton from "./side-bar-profile-img-btn";
 
 const SideBar = () => {
-	const sideBarClassName = `flex flex-col justify-between items-center ${styles.sideBar}`;
+	const sideBarClassName = `flex flex-col justify-between items-center drop-shadow-sm ${styles.sideBar}`;
 
 	return (
 		<div className={sideBarClassName}>

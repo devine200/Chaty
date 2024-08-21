@@ -29,7 +29,7 @@ const PopUpOptionMenu = ({
 	const optionMenuClassName = `flex-col absolute bg-white py-1 ${
 		styles.navOptionBtnMenu
 	} ${isOpen ? "flex" : "hidden"}`;
-	const optionMenuBtnClassName = `flex justify-between px-6 py-2 ${styles.navOptionBtnMenuBtn}`;
+	const optionMenuBtnClassName = `flex justify-between items-center px-6 py-2 text-[var(--ct-primary-color)] ${styles.navOptionMenuBtn}`;
 
 	const handleOnClick = (e: any) => {
 		e.preventDefault();
